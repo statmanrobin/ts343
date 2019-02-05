@@ -4,6 +4,8 @@
 #'
 #' @return A dataframe with lag, autocorrelation (rk), std. error of rk (Srk), test statistic (tsrk) and Ljung-Box statistic (LBQ)
 #'
+#' @export
+#'
 
 testacf=function(seriesacf){
   rk=seriesacf$acf[-1]             #Get rid of NA at the start

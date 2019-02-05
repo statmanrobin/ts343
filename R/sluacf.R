@@ -10,6 +10,8 @@
 #'
 #' @return An autocorrelation object with the first component(lag 0) set to NA
 #'
+#' @export
+#'
 
 sluacf=function(series,maxlag=NULL,plot=FALSE,ndiff=0,sdiff=0,out=TRUE,ci.type="ma"){
   sname=deparse(substitute(series))

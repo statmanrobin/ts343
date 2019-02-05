@@ -6,6 +6,8 @@
 #'
 #' @return A time series (or vector) of the averages taken k at a time with the first value at time k+1
 #'
+#' @export
+#'
 
 runavg=function(z,k,na.rm=TRUE){
   a=stats::filter(z,rep(1/(k+1),k+1),sides=1)
