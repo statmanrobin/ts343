@@ -2,6 +2,7 @@
 
 export(runavg)
 export(simAR1)
+export(simARIMA)
 export(simModel3)
 export(sluacf)
 export(slunova)
