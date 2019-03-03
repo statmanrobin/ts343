@@ -5,7 +5,7 @@
 #' @param theta Coeffiecient of error a(t-1)
 #' @param sderror Standard deviation of the error term
 #'
-#' @return A time series simulated from the model
+#' @return A time series simulated from the MA(1) model
 #'
 #' @export
 #'

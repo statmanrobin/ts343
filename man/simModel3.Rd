@@ -16,7 +16,7 @@ simModel3(n = 100, mean = 0, theta = 0.5, sderror = 1)
 \item{sderror}{Standard deviation of the error term}
 }
 \value{
-A time series simulated from the model
+A time series simulated from the MA(1) model
 }
 \description{
 Simulate an MA(1) model (Model #3)
