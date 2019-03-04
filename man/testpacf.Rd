@@ -7,10 +7,10 @@
 testpacf(seriespacf)
 }
 \arguments{
-\item{seriesacf}{The result of a partial autocorreltion calculation, e.g. from pacf( ) or slupacf( )}
+\item{seriespacf}{The result of a partial autocorreltion calculation, e.g. from pacf( ) or slupacf( )}
 }
 \value{
-A dataframe with lag, partial autocorrelation (phikk), std. error of phikk (Sphikk), test statistic (tsphikk) and Ljung-Box statistic (LBQ)
+A dataframe with lag, partial autocorrelation (rkk), std. error of rkk (Srkk), test statistic (tsrkk)
 }
 \description{
 Provide test statistics for partial autocorrelations
