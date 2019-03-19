@@ -1,13 +1,14 @@
 Package: ts343
 Type: Package
 Title: Time Series Functions and Data for Stat 343
-Version: 0.1.2
+Version: 0.1.3
 Author: Robin Lock
 Maintainer: Robin Lock <rlock@stlawu.edu>
 Description: Material is provided to support the Stat 343 (Time Series) course.
     Functions for describing and analyzing time series.
     Some time series datasets.
 License: GPL (>= 2)
+Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
