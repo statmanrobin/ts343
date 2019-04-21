@@ -2,6 +2,7 @@
 
 export(getdelta)
 export(runavg)
+export(sesplot)
 export(simAR1)
 export(simARIMA)
 export(simModel3)
