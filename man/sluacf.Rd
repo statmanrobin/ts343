@@ -4,7 +4,7 @@
 \alias{sluacf}
 \title{Compute the autocorrelation of a time series}
 \usage{
-sluacf(series, maxlag = NULL, plot = FALSE, ndiff = 0, sdiff = 0,
+sluacf(series, maxlag = NULL, plot = TRUE, ndiff = 0, sdiff = 0,
   out = TRUE, ci.type = "ma")
 }
 \arguments{
@@ -12,7 +12,7 @@ sluacf(series, maxlag = NULL, plot = FALSE, ndiff = 0, sdiff = 0,
 
 \item{maxlag}{Number of autocorrelations to return (Null default picks a reasoanble number)}
 
-\item{plot}{Plot of the ACF with bounds? (default is FALSE)}
+\item{plot}{Plot of the ACF with bounds? (default is TRUE)}
 
 \item{ndiff}{Number of regualr differences (default is 0)}
 

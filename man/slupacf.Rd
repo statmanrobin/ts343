@@ -4,7 +4,7 @@
 \alias{slupacf}
 \title{Compute the autocorrelation of a time series}
 \usage{
-slupacf(series, maxlag = NULL, plot = FALSE, ndiff = 0, sdiff = 0,
+slupacf(series, maxlag = NULL, plot = TRUE, ndiff = 0, sdiff = 0,
   out = TRUE, ci.type = "ma")
 }
 \arguments{
@@ -12,7 +12,7 @@ slupacf(series, maxlag = NULL, plot = FALSE, ndiff = 0, sdiff = 0,
 
 \item{maxlag}{Number of partialautocorrelations to return (Null default picks a reasoanble number)}
 
-\item{plot}{Plot of the PACF with bounds? (default is FALSE)}
+\item{plot}{Plot of the PACF with bounds? (default is TRUE)}
 
 \item{ndiff}{Number of regular differences (default is 0)}
 

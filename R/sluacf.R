@@ -2,7 +2,7 @@
 #'
 #' @param series A time series
 #' @param maxlag Number of autocorrelations to return (Null default picks a reasoanble number)
-#' @param plot Plot of the ACF with bounds? (default is FALSE)
+#' @param plot Plot of the ACF with bounds? (default is TRUE)
 #' @param ndiff Number of regualr differences (default is 0)
 #' @param sdiff Number of seasonal differences (default is zero)
 #' @param out Output the numerical ACF? (default is TRUE)
@@ -13,7 +13,7 @@
 #' @export
 #'
 
-sluacf=function(series,maxlag=NULL,plot=FALSE,ndiff=0,sdiff=0,out=TRUE,ci.type="ma"){
+sluacf=function(series,maxlag=NULL,plot=TRUE,ndiff=0,sdiff=0,out=TRUE,ci.type="ma"){
   sname=deparse(substitute(series))
   if(ndiff>0){series=diff(series,differences=ndiff)
   sname=paste(sname,"d=",ndiff)}
