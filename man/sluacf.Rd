@@ -4,8 +4,15 @@
 \alias{sluacf}
 \title{Compute the autocorrelation of a time series}
 \usage{
-sluacf(series, maxlag = NULL, plot = TRUE, ndiff = 0, sdiff = 0,
-  out = TRUE, ci.type = "ma")
+sluacf(
+  series,
+  maxlag = NULL,
+  plot = TRUE,
+  ndiff = 0,
+  sdiff = 0,
+  out = TRUE,
+  ci.type = "ma"
+)
 }
 \arguments{
 \item{series}{A time series}

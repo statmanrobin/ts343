@@ -4,8 +4,7 @@
 \alias{simARIMA}
 \title{Simulate data from an ARIMA model}
 \usage{
-simARIMA(n = 100, delta = 0, phi = NULL, d = 0, theta = NULL,
-  sderror = 1)
+simARIMA(n = 100, delta = 0, phi = NULL, d = 0, theta = NULL, sderror = 1)
 }
 \arguments{
 \item{n}{Length of the series to simulate}

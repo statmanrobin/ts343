@@ -1,20 +1,20 @@
-\name{SeaIce18}
-\alias{SeaIce18}
+\name{SeaIce20}
+\alias{SeaIce20}
 \docType{data}
 \title{
 Arctic Sea Ice
 }
 \description{
-Yearly area and extent of Arctic sea ice measured in September(1979-2018)
+Yearly area and extent of Arctic sea ice measured in September(1979-2020)
 }
-\usage{data("SeaIce18")}
+\usage{data("SeaIce20")}
 \format{
-  A data frame with 40 observations on the following 4 variables.
+  A data frame with 42 observations on the following 4 variables.
   \describe{
-    \item{\code{Year}}{Year (1979 to 2018)}
+    \item{\code{Year}}{Year (1979 to 2020)}
     \item{\code{Extent}}{Extent of the Arctic sea ice (in millions of square km)}
     \item{\code{Area}}{Area of the Arctic sea ice (in millions of square km)}
-    \item{\code{t}}{Time index (1 to 40)}
+    \item{\code{t}}{Time index (1 to 42)}
   }
 }
 \details{
