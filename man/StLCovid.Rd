@@ -9,7 +9,7 @@ Cumulative and daily positive covid-19 cases and deaths, starting 3/22/2020
 }
 \usage{data("StLCovid")}
 \format{
-  A data frame with 281 observations on the following 5 variables.
+  A data frame with 285 observations on the following 5 variables.
   \describe{
     \item{\code{Date}}{Date in mm/dd format}
     \item{\code{CumPositive}}{Cumulative positive covid-19 cases}
