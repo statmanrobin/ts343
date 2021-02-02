@@ -5,9 +5,9 @@
 Monthly Retail Sales (2009-2020)
 }
 \description{
-U.S. retail sales (in billions of dollars) from Jan-2009 to Sept-2018.
+U.S. retail sales (in billions of dollars) from Jan-2009 to Sept-2020.
 }
-\usage{data("RetailSales18")}
+\usage{data("RetailSales20")}
 \format{
   A data frame with 141 observations on the following 4 variables.
   \describe{
