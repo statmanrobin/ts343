@@ -5,11 +5,11 @@
 Frazer Computing Sales (Monthly)
 }
 \description{
-Monthly sales at Frazer Computing (1993-2018)
+Monthly sales at Frazer Computing (1993-2020)
 }
 \usage{data("FrazerMonthly")}
 \format{
-  A data frame with 312 observations on the following 3 variables.
+  A data frame with 336 observations on the following 3 variables.
   \describe{
     \item{\code{Month}}{Month}
     \item{\code{Year}}{Year}

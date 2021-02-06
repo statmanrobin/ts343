@@ -5,15 +5,15 @@
 Frazer Computing Sales (Yearly)
 }
 \description{
-Yearly sales at Frazer Computing (1993-2018)
+Yearly sales at Frazer Computing (1993-2020)
 }
 \usage{data("FrazerYearly")}
 \format{
   A data frame with 26 observations on the following 3 variables.
   \describe{
-    \item{\code{Year}}{Year (1993 to 2018)}
+    \item{\code{Year}}{Year (1993 to 2020)}
     \item{\code{TotalSales}}{Software unit sold}
-    \item{\code{t}}{Time index (1 to 26)}
+    \item{\code{t}}{Time index (1 to 28)}
   }
 }
 \details{
