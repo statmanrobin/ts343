@@ -2,7 +2,7 @@
 \alias{psij}
 
 \title{
-Finding the psi_j wieghts of ARIMA Models
+Finding the psi_j weights of ARIMA Models
 }
 \description{
 Takes an ARIMA model and produces a vector of psi_j weights for the fitted model
