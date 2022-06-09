@@ -7,9 +7,9 @@
 showFit(model, form = "list")
 }
 \arguments{
-\item{model}{an object of class “arima”. For example, model produced by the Arima() function}
+\item{model}{an object of class "arima". For example, model produced by the Arima() function}
 
-\item{form}{the format in which the user wants to view the fitted ARIMA model. The default is “list” which returns a list of all characteristic polynomials present in the model. Other options for form include “fullList”, “factor”, “combined”, “rhs”}
+\item{form}{the format in which the user wants to view the fitted ARIMA model. The default is "list"" which returns a list of all characteristic polynomials present in the model. Other options for form include "fullList", "facto", "combined", "rhs"}
 }
 \value{
 A list of polynomials or character string of a formatted fitted ARIMA model
