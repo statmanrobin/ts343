@@ -9,26 +9,11 @@ showFit(model, form = "list")
 \arguments{
 \item{model}{an object of class "arima". For example, model produced by the Arima() function}
 
-\item{form}{the format in which the user wants to view the fitted ARIMA model. The default is "list"" which returns a list of all characteristic polynomials present in the model. Other options for form include "fullList", "facto", "combined", "rhs"}
+\item{form}{the format in which the user wants to view the fitted ARIMA model. The default is "list" which returns a list of all characteristic polynomials present in the model. Other options for form include "fullList", "factor", "combined", "rhs"}
 }
 \value{
 A list of polynomials or character string of a formatted fitted ARIMA model
 }
 \description{
-This function is used to display fitted ARIMA models in various formats
-}
-\details{
-Arguments - Form: Indicates the format that the user chooses to see the fitted model
-fullList - allows the user to see the entire list of characteristic polynomials even if they are not a part of the ARIMA model output. If the terms are not present in the fitted model, the value of the polynomial will default to 1. fullList will return 6 characteristic polynomials and a constant term.
-
-list - default for showFit. This function returns a list of polynomials that are present in the model only. Therefore, if a term is not present and defaults to 1, it is removed from the list and is not seen in the output.
-
-factor - factor allows the user to see the fitted ARIMA model in an equation format with polynomial factors for each type of term (ar, ma, sar, sma, d, D). This format displays the autoregressive, seasonal autoregressive, and regular/seaonal difference terms on one side of the equation and displays the constant, moving average, and seasonal moving average terms on the other. The factors are delimited by parenthesis.
-
-combined - combined takes the factored form of the fitted model and multiplies them together on their respective sides of the equation. This combines all the autoregressive terms together as well as the moving average terms.
-
-rhs - takes the combined autoregressive characteristic polynomial and moves everything to the right side of the equation and isolates $Z_t$. It has the form $Z_t = ...$
-
-  Function Composition:
-  showFit takes a fitted ARIMA model and runs it through the polyChar function - this produces a list of characteristic polynomials for a given model. Based on the user choice in the form argument, the function coerces the polynomials into character strings and prints them in the desired format.
+Formatting fitted ARIMA models
 }
