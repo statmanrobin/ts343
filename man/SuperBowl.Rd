@@ -5,13 +5,13 @@
 Super Bowl Scores
 }
 \description{
-Winner's and loser's score and margin of victory for Super Bowls from 1967 to 2020
+Winner's and loser's score and margin of victory for Super Bowls from 1967 to 2022
 }
 \usage{data("SuperBowl")}
 \format{
-  A data frame with 54 observations on the following 4 variables.
+  A data frame with 56 observations on the following 4 variables.
   \describe{
-    \item{\code{Year}}{Year (1967 to 2020)}
+    \item{\code{Year}}{Year (1967 to 2022)}
     \item{\code{Winner}}{Points scored by the winning team}
     \item{\code{Loser}}{Pooints scored by the losing team}
     \item{\code{Diff}}{Margin if victory (winner - loser)}
