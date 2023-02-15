@@ -11,7 +11,7 @@ Data simulated from Constant, Random Walk, Model #3, and Linear models
 \format{
   A data frame with 25 observations on the following 6 variables.
   \describe{
-    \item{\code{at}}{Random errors from N(0,0.25)}
+    \item{\code{at}}{Random errors using N(0,0.25)}
     \item{\code{Constant}}{Constant model with mean=20}
     \item{\code{RWalk}}{Random walk starting at 20}
     \item{\code{Model3}}{Model #3 with theta=0.5 and mean=20}
