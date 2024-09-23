@@ -9,7 +9,7 @@ Data simulated from Constant, Random Walk, Model #3, and Linear models
 }
 \usage{data("CWalk3Linear")}
 \format{
-  A data frame with 25 observations on the following 6 variables.
+  A data frame with 20 observations on the following 6 variables.
   \describe{
     \item{\code{at}}{Random errors using N(0,0.25)}
     \item{\code{Constant}}{Constant model with mean=20}
