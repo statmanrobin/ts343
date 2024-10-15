@@ -17,6 +17,6 @@ simARIMA=function(n=100,delta=0,phi=NULL,d=0,theta=NULL,sderror=1){
   q=length(theta)
   if(!is.null(theta)){theta=-theta}
   z=arima.sim(n=n,model=list(order=c(p,d,q),ar=phi,ma=theta),sd=sderror)
-  if(!is.null(phi) && phi!=0){mean=delta/(1-sum(phi))} else {mean=0}
+  if(!is.null(phi) && sum(phi)!=1){mean=delta/(1-sum(phi))} else {mean=0}
   z+mean
 }
