@@ -2,12 +2,12 @@
 \alias{StatKeyF2024}
 \docType{data}
 \title{
-StatKey Sessions
+StatKey Users Fall 2024
 }
 \description{
 Daily StatKey sessions (9/1/2024 to 9/7/2024)
 }
-\usage{data("StatKeyS2024")}
+\usage{data("StatKeyF2024")}
 \format{
   A data frame with 98 observations on the following 2 variables.
   \describe{
